@@ -13,11 +13,11 @@ public class Ex11Test {
 		case '1' :
 		case '3' :
 		case '7' :
-		case '9' : System.out.println("남자입니다.");
+		case '9' : System.out.println("남자입니다."); break;
 		case '2' :
 		case '4' :
 		case '8' :
-		case '0' : System.out.println("여자입니다.");
+		case '0' : System.out.println("여자입니다."); break;
 		}
 	}
 }

@@ -14,10 +14,29 @@ public class Ex12Test {
 		list.add("이상범");
 		list.add("이상범");
 		list.add("이상범");
+		list.add("이상범");
+		list.add("이장범");
+		for(String s : list) {
+			System.out.println(s);
+		}
+		System.out.println(list.size());
+		
+		System.out.println("==========");
+		
+		String str = list.get(4);
+		System.out.println(str);
+		
+		System.out.println("==========");
+		
+		list.remove(3);
 		for(String s : list) {
 			System.out.println(s);
 		}
 		
+		System.out.println("==========");
+		
+		str = list.get(3);
+		System.out.println(str);
 		
 	}
 

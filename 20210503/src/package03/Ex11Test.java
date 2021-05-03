@@ -23,6 +23,10 @@ public class Ex11Test {
 		strNow2 = sdf.format(now);
 		System.out.println(strNow2);
 		
+		sdf = new SimpleDateFormat("yyyy년 MM월 dd일 W주 HH시 mm분 ss초 S");
+		strNow2 = sdf.format(now);
+		System.out.println(strNow2);
+		
 	}
 
 }

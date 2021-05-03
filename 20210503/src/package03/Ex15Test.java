@@ -36,6 +36,16 @@ public class Ex15Test {
 		for(Board bd : list2) {
 			System.out.println(bd.content);
 		}
+		
+		// 리스트에 추가 : add() 
+		// 리스트에 있는 값 가져오기 : get(index)
+		// 리스트에 있는 값 삭제 : remove(index), remove("value")
+		// 리스트의 크기 : size()
+		// 리스트에 값 삽입 : add(index, "value")
+		// 리스트 객체 만들 때 사용되는 class : ArrayList, Arrays.asList, Vector
+		
+		
+		
 	}
 
 }
